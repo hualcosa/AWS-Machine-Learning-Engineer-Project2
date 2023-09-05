@@ -8,3 +8,4 @@ In this project, I have:
 1. used AWS Sagemaker to build an image classification model
 2. deployed the model
 3. built a Step Functions workflow using 3 lambda functions to simulate incoming classification requests. The workflow receives the payload, performs inference on it, and forwards it to downstream services in case the confidence level of the prediction is above the threshold.
+<img src="step-function/working_step_function.png" alt="Prject workflow">
